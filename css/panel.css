@@ -14,7 +14,6 @@
   --color-text-header-2: #2980b9;
   --color-text-paragraph: #666;
 }
-
 .panel {
   display: grid;
   grid-template-columns: 2fr 11fr;
