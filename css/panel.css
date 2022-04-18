@@ -1,13 +1,4 @@
-/* 
-///////////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////
-////////////////////
-Start Global property
-///////////////////
-/////////////////////////////////////
-//////////////////////////////////////
 
-*/
 :root {
   --color-bg-1: white;
   --color-bg-2: rgba(0, 0, 0, 0.03);
@@ -24,27 +15,6 @@ Start Global property
   --color-text-paragraph: #666;
 }
 
-@font-face {
-  font-family: irn;
-  src: url(../fonts/iran.ttf);
-}
-* {
-  font-family: irn;
-  direction: rtl;
-  box-sizing: border-box;
-}
-body {
-  font-size: 16px;
-  margin: 0;
-}
-a {
-  text-decoration: none;
-}
-/* End Of Global Property
-/////////////////////////////////////////////////////////
-///////////////////////////////////////////
-/////////////////////////////
-*/
 .panel {
   display: grid;
   grid-template-columns: 2fr 11fr;
