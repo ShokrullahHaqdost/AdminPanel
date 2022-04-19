@@ -172,6 +172,7 @@
 .revenue-box .head .left {
   display: flex;
   align-items: center;
+  padding: 20px;
 }
 
 .revenue-box .head .left i {
@@ -187,7 +188,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px;
 }
 
 /* menu */
