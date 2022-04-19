@@ -24,8 +24,8 @@
 }
 
 .menu {
-  width: 100%;
-  min-height: 800px;
+  max-width: 100%;
+  min-height: 40%;
   background-color: var(--color-bg-1);
 }
 
@@ -92,7 +92,11 @@
   color: var(--color-icon-1);
 }
 
-/* header message  */
+/* header message 
+/////////////////////////////
+////////////////////////////////////
+///////////////////////////////////////
+ */
 .main-box header .header-message {
   display: flex;
   justify-content: space-between;
@@ -112,10 +116,15 @@
   color: var(--color-text-header);
 }
 
-/* holder */
+/* holder 
+/////////////////////
+////////////////////////////////
+/////////////////////////////////////
+*/
 .holder {
   background-color: var(--color-bg-3);
-  padding: 30px;
+  padding: 10px;
+  margin: 0px;
 }
 
 /* mini-cards 
@@ -173,8 +182,6 @@
   border-top-right-radius: 5px;
 }
 
-.revenue-box .head .right {
-}
 
 .revenue-box .head .left {
   display: flex;
@@ -197,7 +204,7 @@
   align-items: center;
   margin: ;
 }
-.revenue-box .content .text-main {
+.text-main {
   padding: 10px 40px !important;
 }
 
@@ -283,3 +290,8 @@
 .menu-btns .item-active span {
   color: var(--color-text-header-2);
 }
+/* div .col-lg-3 .col-md-4 .col-sm-6 .col-xs-12{
+  padding:20px 0px !important;
+  margin:20px 10px !important
+
+} */
