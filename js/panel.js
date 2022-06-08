@@ -18,7 +18,7 @@ function activeTextMenuBtn(flag) {
   if (flag) {
     btn_menu_items.forEach(ele => {
       ele.style.justifyContent = "flex-start";
-      ele.style.paddingRight = "30px";
+      ele.style.paddingRight = "10px";
     });
     item_texts.forEach(ele => {
       ele.style.display = "block";
