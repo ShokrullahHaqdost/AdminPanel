@@ -14,21 +14,22 @@
   --color-text-paragraph: #666;
 }
 .panel {
-  /* display: grid; */
-  /* grid-template-columns: 1fr 11fr; */
   /* margin: 0 auto; */
 }
 
-.panel-min {
-  display: grid;
-  /* grid-template-columns: 1fr 13fr; */
-}
 
- @media (min-width: 800px) {
+ @media (min-width: 600px) {
   .panel {
-    min-width: 100%;
+  display: grid;
+
+  grid-template-columns: 1fr 11fr;
   }
- 
+
+  .panel-min {
+  display: grid;
+    
+    grid-template-columns: 1fr 13fr;
+  } 
 }
 
 .menu {
