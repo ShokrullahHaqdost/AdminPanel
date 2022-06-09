@@ -13,9 +13,6 @@
   --color-text-header-2: #2980b9;
   --color-text-paragraph: #666;
 }
-.panel {
-  /* margin: 0 auto; */
-}
 
 
  @media (min-width: 600px) {
