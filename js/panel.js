@@ -12,6 +12,8 @@ function togglePanel() {
     activeTextMenuBtn(1);
   }
 }
+
+
 function activeTextMenuBtn(flag) {
   let btn_menu_items = document.querySelectorAll(".menu-btns .item");
   let item_texts = document.querySelectorAll(".menu-btns .item span");
@@ -26,7 +28,7 @@ function activeTextMenuBtn(flag) {
   } else {
     btn_menu_items.forEach(ele => {
       ele.style.justifyContent = "center";
-      ele.style.paddingRight = "0px";
+      ele.style.paddingRight = "10px";
     });
     item_texts.forEach(ele => {
       ele.style.display = "none";
