@@ -14,28 +14,6 @@ function togglePanel() {
 }
 
 
-function activeTextMenuBtn(flag) {
-  let btn_menu_items = document.querySelectorAll(".menu-btns .item");
-  let item_texts = document.querySelectorAll(".menu-btns .item span");
-  if (flag) {
-    btn_menu_items.forEach(ele => {
-      ele.style.justifyContent = "flex-start";
-      ele.style.paddingRight = "10px";
-    });
-    item_texts.forEach(ele => {
-      ele.style.display = "block";
-    });
-  } else {
-    btn_menu_items.forEach(ele => {
-      ele.style.justifyContent = "center";
-      ele.style.paddingRight = "10px";
-    });
-    item_texts.forEach(ele => {
-      ele.style.display = "none";
-    });
-  }
-}
-
 function toggleUserDetails() {
   let userDetails = document.querySelector(".user-info .details");
   let arrow = document.querySelector(".user-info .img-name i");
@@ -74,3 +52,18 @@ function active_user_name_arrow(flag) {
     imgNameBox.style.justifyContent = "center";
   }
 }
+
+// Active meneu
+
+let menuItems = document.querySelectorAll("nav a");
+
+menuItems.forEach( Item => {
+  Item.addEventListener('click', function(){
+    menuItems.forEach(itm => itm.classList.remove('item-active'));
+    this.classList.add('item-active');
+  });
+});
+
+
+
+

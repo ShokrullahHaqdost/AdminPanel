@@ -293,18 +293,14 @@
 
 .menu-btns .item-active {
   background-color: var(--color-bg-2);
+  /* font-size: xx-large; */
+
 }
 
 .menu-btns .item-active span {
   color: var(--color-text-header-2);
 
 }
-/* .col-lg-3 .col-md-4 .col-sm-6 .col-xs-12{
-  padding:20px 0px !important;
-  margin:20px 10px !important
-
-} */
-
 
 /* Responsive sections */
 
