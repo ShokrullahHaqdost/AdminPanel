@@ -55,6 +55,7 @@ function active_user_name_arrow(flag) {
 
 // Active meneu
 
+
 let menuItems = document.querySelectorAll("nav a");
 
 menuItems.forEach( Item => {
@@ -63,7 +64,6 @@ menuItems.forEach( Item => {
     this.classList.add('item-active');
   });
 });
-
 
 
 
